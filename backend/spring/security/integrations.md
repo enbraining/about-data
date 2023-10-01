@@ -94,4 +94,31 @@ pdkdf2 암호화도 있으며 코드는 다음과 같다. 굳이 알고리즘까
 Pbkdf2PasswordEncoder encoder = Pbkdf2PasswordEncoder.defaultsForSpringSecurity_v5_8();
 String result = encoder.encode("myPassword");
 assertTrue(encoder.matches("myPassword", result));
-``````
+```
+
+# Spring Data
+Spring Security는 쿼리에서 참조할 수 있는 Spring Data 통합 기능을 제공한다.
+
+## Spring Data & Spring Security Configuration
+의존성으로 org.springframework.security:spring-security-data이 추가되어있어야 한다.
+아래는 설정 코드이다.
+
+```java
+@Bean
+public SecurityEvaluationContextExtension securityEvaluationContextExtension() {
+	return new SecurityEvaluationContextExtension();
+}
+```
+XML로 설정하는 방법은 따로 설명하지 않겠다.
+
+# Security Expressions within @Query
+Spring Security에서 쿼리를 보낼 수 있는 방법이다.
+아래는 예시 코드이다.
+```java
+@Repository
+public interface MessageRepository extends PagingAndSortingRepository<Message,Long> {
+	@Query("select m from Message m where m.to.id = ?#{ principal?.id }")
+	Page<Message> findInbox(Pageable pageable);
+}
+```
+ Authentication.getPrincipal().getId()가 메시지의 수신자와 동일한지 확인한다.
