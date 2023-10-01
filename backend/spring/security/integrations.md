@@ -30,7 +30,68 @@ CBC를 사용하여 256비트 AES 기반으로 암호화하며,
 > You can use the Encryptors.text factory method to construct a standard TextEncryptor
 - Encryptors.text factory method을 사용하여 표준 TextEncryptor를 구성할 수 있다.
 
-```
+```java
 Encryptors.text("password", "salt");
 ```
 위의 코드를 사용하여 문자열을 암호화하며, 암호화된 결과는 사용하기 쉽도록 16진수 인코딩 문자열로 반환된다.
+
+## Key Generators
+
+### BytesKeyGenerator
+KeyGenerators.secureRandom factory method를 사용하여 SecureRandom 인스턴스가 지원하는 BytesKeyGenerator를 생성할 수 있다.
+
+```java
+BytesKeyGenerator generator = KeyGenerators.secureRandom();
+byte[] key = generator.generateKey();
+```
+기본적으로 키의 길이는 8바이트이며, 
+The default key length is 8 bytes. KeyGenerators.secureRandom을 변형하면 키의 길이를 바꿀 수 있다.
+```java
+KeyGenerators.secureRandom(16);
+KeyGenerators.shared(16); // 공유 키
+```
+
+### StringKeyGenerator
+KeyGenerators.string factory method를 사용하여 키를 String으로 16진수 인코딩하는 8바이트 SecureRandom KeyGenerator를 구성할 수 있다.
+```java
+KeyGenerators.string();
+```
+
+## Password Encoding
+Password Encoding은 spring-security-crypto 모듈에 포함되어 있다. PasswordEncoder는 핵심적인 서비스 인터페이스이며 다음과 같은 구조를 가진다.
+```java
+public interface PasswordEncoder {
+	String encode(CharSequence rawPassword);
+
+	boolean matches(CharSequence rawPassword, String encodedPassword);
+
+	default boolean upgradeEncoding(String encodedPassword) {
+		return false;
+	}
+}
+```
+- encode. 문자열을 암호화한다.
+- matches. 암호화된 문자열과 문자열을 비교해서 동일하면 true를 반환한다.
+
+PassowrdEncoder interface를 구현한 구현체들이 다양하며,
+대표적으로 bcrypt 암호화를 사용하는 BcryptPasswordEncoder 등이 있다. 
+BcryptPasswordEncoder는 임의의 16바이트 salt 값을 사용하며, 암호 크래커를 방지하기 위해 사용하는 알고리즘이다. 
+
+4에서 31 사이의 값을 가지는 strength 매개 변수를 사용하여 암호화 단계를 조정할 수 있다. 값이 높을수록 해시를 계산하기 위해 더 많은 작업을 수행해야하며, 보안이 향상된다. 
+
+기본값은 10이며, 암호화된 해시에도 값이 저장되므로 배포된 시스템에서 기존 암호에 영향을 주지 않고 이 값을 변경할 수 있다. 아래의 코드로 예시를 들어보자.
+
+```java
+// Create an encoder with strength 16
+BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(16);
+String result = encoder.encode("myPassword");
+assertTrue(encoder.matches("myPassword", result));
+```
+
+pdkdf2 암호화도 있으며 코드는 다음과 같다. 굳이 알고리즘까지 소개하지는 않겠다.
+```java
+// Create an encoder with all the defaults
+Pbkdf2PasswordEncoder encoder = Pbkdf2PasswordEncoder.defaultsForSpringSecurity_v5_8();
+String result = encoder.encode("myPassword");
+assertTrue(encoder.matches("myPassword", result));
+``````
