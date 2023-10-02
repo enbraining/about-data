@@ -122,3 +122,5 @@ public interface MessageRepository extends PagingAndSortingRepository<Message,Lo
 }
 ```
  Authentication.getPrincipal().getId()가 메시지의 수신자와 동일한지 확인한다.
+
+# Java's Concurrency APIs
