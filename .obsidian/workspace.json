@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "8aad234913b21f0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "97d185b724cbeb56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cf9f29eed956e67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "낙서.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de11a2323d8d6115",
+    "type": "split",
+    "children": [
+      {
+        "id": "782cfdcb98863e5d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc7f6264b3277a03",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "851622b7b00554da",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae51bc43ea871db9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "03b9f9c16ebcb77c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7aa00fd25e636e97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9cfc541b0daaa131",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "낙서.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a02895c731600fe0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "낙서.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1b5d2ec3a5dd4cc8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4a90b8b6050fb249",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "낙서.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false
+    }
+  },
+  "active": "2cf9f29eed956e67",
+  "lastOpenFiles": [
+    "backend/spring/security/authentication.md",
+    "낙서.md",
+    "backend/spring/cloud/스프링 마이크로서비스 코딩 공작소/스프링, 클라우드와 만나다.md"
+  ]
+}
