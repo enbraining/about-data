@@ -8,3 +8,4 @@
 - private member는 자식 클래스에 상속되지 않는다.
 - class member는 어떤 접근 지정자로도 지정할 수 있지만, 클래스는 protected, private로는 지정할 수 없다.
 - method를 오버라이딩할 때 부모 클래스의 메소드보다 접근 제한이 좁아질 수 없다.
+
