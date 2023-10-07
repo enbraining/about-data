@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "낙서.md",
+                "file": "math/수학(상)/Greatest Integer Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "낙서.md",
+                "file": "math/수학(상)/Greatest Integer Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "낙서.md",
+                "file": "math/수학(상)/Greatest Integer Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "낙서.md"
+                "file": "math/수학(상)/Greatest Integer Function.md"
               }
             }
           }
@@ -138,18 +138,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "2cf9f29eed956e67",
   "lastOpenFiles": [
-    "backend/spring/security/authentication.md",
+    "English Grammar/Modal verb.md",
+    "public",
+    "public/Screenshot 2023-10-08 at 00.52.14.png",
+    "math/수학(상)/Greatest Integer Function.md",
+    "English Grammar",
+    "backend/spring/HttpServletRequest와 HttpServletResponse.md",
+    "math/수학(상)",
+    "math/미분적분학/함수와 극한.md",
+    "math/집합론/set theory.md",
+    "backend/spring/annotation.md",
+    "backend/spring/aop.md",
+    "backend/spring/dispatcherServlet.md",
+    "backend/spring/servlet&Reactive.md",
+    "backend/spring/spel.md",
     "낙서.md",
+    "backend/spring/security/authentication.md",
     "backend/spring/cloud/스프링 마이크로서비스 코딩 공작소/스프링, 클라우드와 만나다.md"
   ]
 }
