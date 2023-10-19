@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "f1d2b15a756dc763",
+    "type": "split",
+    "children": [
+      {
+        "id": "07f6548d6bab1e70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99437347e8a16a3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "backend/spring/spring data/1. 시작.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2f609a7c624eedd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf51c341a6d7fef6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cd4e0ae55e837a9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "64f50d53aa79ec07",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8c334cfabd80cff5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "87f33ef30ecbb088",
+    "type": "split",
+    "children": [
+      {
+        "id": "a91fe3c9aea8503f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfa31033328e14a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "backend/spring/spring data/1. 시작.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "60f2e820fa995709",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "backend/spring/spring data/1. 시작.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2ebafb097d24c31a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cd02881ac1b2d4f1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "backend/spring/spring data/1. 시작.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "99437347e8a16a3a",
+  "lastOpenFiles": [
+    "backend/spring/spring data/cascade.md",
+    "backend/spring/spring data/1. 시작.md",
+    "language/kotlin/coroutine.md",
+    "language/assembly/syntex.md",
+    "language/assembly/assembly.md",
+    "backend/spring/spring data/spel.md",
+    "backend/spring/spring data",
+    "backend/spring/spring boot/servlet&Reactive.md",
+    "backend/spring/spring boot/HttpServletRequest와 HttpServletResponse.md",
+    "backend/spring/spring boot/aop.md",
+    "backend/spring/spring boot/dispatcherServlet.md",
+    "backend/spring/annotation.md",
+    "backend/spring/spring boot"
+  ]
+}
