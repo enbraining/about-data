@@ -1,0 +1,1 @@
+Spring Security는 기본적으로 HttpSessionSecurityContextRepository를 사용해 인증정보를 HttpSession에 저장한다. 하지만 사용자의 수가 커지는 경우 서버에 부담을 주게 되므로, Redis와 같은 Cache Server를 이용해야 하는데 그러려면 SecurityContextRepository를 implements해서 새로운 SecurityContextRepository를 정의해야한다.
