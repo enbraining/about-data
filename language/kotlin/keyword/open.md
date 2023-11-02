@@ -16,7 +16,7 @@ open class Main {
     }
 }
 
-class RealMain():Main() {
+class RealMain:Main() {
     override fun getNumber():Int{
         return 2
     }
