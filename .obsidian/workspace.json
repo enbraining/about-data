@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "10a2364ba4b2eb83",
+    "type": "split",
+    "children": [
+      {
+        "id": "a9dacfd5db881537",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0590c053356bbeff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data-structure/Heap-tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd06ca8c9f9226f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "12e3bbc06eb17d9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afaed575689c439b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8fe285f42b0aebbb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c3295e11e11b61dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de1bf6be99001190",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b84b6f12284b98a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1ddaa1c8c544b8d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "data-structure/Heap-tree.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f00665e509f7061c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "data-structure/Heap-tree.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "05a084d7c2370913",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7ed7b4b8840b90c0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "data-structure/Heap-tree.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0590c053356bbeff",
+  "lastOpenFiles": [
+    "data-structure/Circular-queue.md",
+    "data-structure/Linked-List.md",
+    "data-structure/Queue.md",
+    "data-structure/Heap-tree.md",
+    "data-structure/Asymptotic-notation.md",
+    "architecture/Agile-methodology.md"
+  ]
+}
